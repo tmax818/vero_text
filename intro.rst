@@ -1,17 +1,17 @@
 Introduction
 ============
 
+Welcome to Introduction to Python, with `Veroskills <https://veroskills.com>`_. This course will serve as an introduction to coding via the `Python <https://python.org>`_ programming language.
 
-.. topic:: 
-    :subtitle: Beware killer rabbits!
+.. admonition:: Python reads like English
+
+   Python is the ideal first programming language. We write Python code in a manner that is analogous to written English.
+
+History of Python
+++++++ 
+
+Python was written in 1991 by `Guido van Rossem <https://gvanrossum.github.io/>`_. He named the language after the British comedy troop `Monty Python <http://montypython.com/>`_.
 
 .. image:: ./images/guido.png
     :class: logo
     :width: 200px
-
-.. sidebar::
-   :subtitle: Optional Sidebar Subtitle
-
-   Subsequent indented lines comprise
-   the body of the sidebar, and are
-   interpreted as body elements.
