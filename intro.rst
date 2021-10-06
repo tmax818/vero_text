@@ -15,3 +15,21 @@ Python was written in 1991 by `Guido van Rossem <https://gvanrossum.github.io/>`
 .. image:: ./images/guido.png
     :class: logo
     :width: 200px
+
+
+This is some more text
+
+.. code-block:: python
+
+
+   print("Hello, World!")
+
+.. code-block:: c
+
+    #include <stdio.h>
+
+    int main(void)
+    {
+        puts("Hello, World");
+        return 0;
+    }

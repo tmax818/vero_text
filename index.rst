@@ -12,6 +12,7 @@ Python with VeroSkills
    :caption: Contents:
 
    intro
+   data_types
 
 
 

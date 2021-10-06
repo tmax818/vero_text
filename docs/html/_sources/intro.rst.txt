@@ -10,8 +10,26 @@ Welcome to Introduction to Python, with `Veroskills <https://veroskills.com>`_. 
 History of Python
 ++++++ 
 
-Python was written in 1991 by `Guido van Rossem <https://gvanrossum.github.io/>`_. He named the language after the British comedy troop `Monty Python <http://montypython.com/>`_
+Python was written in 1991 by `Guido van Rossem <https://gvanrossum.github.io/>`_. He named the language after the British comedy troop `Monty Python <http://montypython.com/>`_.
 
 .. image:: ./images/guido.png
     :class: logo
     :width: 200px
+
+
+This is some more text
+
+.. code-block:: python
+
+
+   print("Hello, World!")
+
+.. code-block:: c
+
+    #include <stdio.h>
+
+    int main(void)
+    {
+        puts("Hello, World");
+        return 0;
+    }
