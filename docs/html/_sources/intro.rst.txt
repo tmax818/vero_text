@@ -17,12 +17,7 @@ Python was written in 1991 by `Guido van Rossem <https://gvanrossum.github.io/>`
     :width: 200px
 
 
-This is some more text
-
-.. code-block:: python
-
-
-   print("Hello, World!")
+It's tradition that the first program you write simply prints, "Hello, World" to the screen. The following is how you would write that program in the C programming language.
 
 .. code-block:: c
 
@@ -33,3 +28,4 @@ This is some more text
         puts("Hello, World");
         return 0;
     }
+

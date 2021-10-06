@@ -13,6 +13,7 @@ Python with VeroSkills
 
    intro
    data_types
+   logic
 
 
 
