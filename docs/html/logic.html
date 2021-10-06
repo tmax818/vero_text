@@ -16,6 +16,7 @@
     <script src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Data Types" href="data_types.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -34,6 +35,112 @@
             
   <section id="logic">
 <h1>Logic<a class="headerlink" href="#logic" title="Permalink to this headline">¶</a></h1>
+<section id="not">
+<h2>Not<a class="headerlink" href="#not" title="Permalink to this headline">¶</a></h2>
+<p>The not operator is like flipping a switch. Whatever an expression evaluates to, applying the <code class="code docutils literal notranslate"><span class="pre">not</span></code> operator converts it to its opposite.</p>
+<table class="colwidths-given docutils align-default" id="id1">
+<caption><span class="caption-text"><code class="code docutils literal notranslate"><span class="pre">not</span></code></span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p></th>
+<th class="head"><p><code class="code docutils literal notranslate"><span class="pre">not</span> <span class="pre">p</span></code></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="and">
+<h2>And<a class="headerlink" href="#and" title="Permalink to this headline">¶</a></h2>
+<p>The only way an <code class="code docutils literal notranslate"><span class="pre">and</span></code> statement is true is if both expressions are true. Otherwise, it is false.</p>
+<table class="colwidths-given docutils align-default" id="id2">
+<caption><span class="caption-text"><code class="code docutils literal notranslate"><span class="pre">and</span></code></span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p></th>
+<th class="head"><p><code class="code docutils literal notranslate"><span class="pre">q</span></code></p></th>
+<th class="head"><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">and</span> <span class="pre">q</span></code></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="or">
+<h2>Or<a class="headerlink" href="#or" title="Permalink to this headline">¶</a></h2>
+<p>The only way an <code class="code docutils literal notranslate"><span class="pre">or</span></code> statement is false is if both expressions are false. Otherwise, it is true.</p>
+<table class="colwidths-given docutils align-default" id="id3">
+<caption><span class="caption-text"><code class="code docutils literal notranslate"><span class="pre">and</span></code></span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p></th>
+<th class="head"><p><code class="code docutils literal notranslate"><span class="pre">q</span></code></p></th>
+<th class="head"><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">and</span> <span class="pre">q</span></code></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">True</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+<td><p><code class="code docutils literal notranslate"><span class="pre">False</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-practice-these-in-the-veroskills-interface admonition">
+<p class="admonition-title">Practice these in the Veroskills interface:</p>
+<ul class="simple">
+<li><p>Write a Python expression that evaluates to True.</p></li>
+<li><p>Use parentheses and convert the Python expression you wrote in the last exercise and make sure it evaluates to false.</p></li>
+</ul>
+</div>
+</section>
 </section>
 
 
@@ -54,15 +161,23 @@
 
 <h3>Navigation</h3>
 <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data_types.html">Data Types</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Logic</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#not">Not</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#and">And</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#or">Or</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exercise">Exercise</a></li>
+</ul>
+</li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="data_types.html" title="previous chapter">Data Types</a></li>
   </ul></li>
 </ul>
 </div>
