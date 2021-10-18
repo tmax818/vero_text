@@ -18,6 +18,7 @@ Python with VeroSkills
    control_flow
    fizz_buzz
    while_loops
+   functions_part1
 
 
 
