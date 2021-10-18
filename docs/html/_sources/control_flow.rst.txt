@@ -42,12 +42,12 @@ You should see :code:`The condition must be false!!!` print. If we add the :code
         print("Both conditions must be false!!!")
 
 
-You should see :code:`The other condition is True` print.
+You should see :code:`The other condition is True` print. What would print if both conditions are false?
 
 Exercise
 ++++++++
 
 .. admonition:: Practice these in the Veroskills interface
 
-   - Declare a variable called name and assign the string representation of your name to it.
+   - Write code that will print 
    - Use the Python :code:`print` function to get it to print to the screen.

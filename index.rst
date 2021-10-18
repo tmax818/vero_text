@@ -16,6 +16,7 @@ Python with VeroSkills
    logic
    variables
    control_flow
+   fizz_buzz
 
 
 
