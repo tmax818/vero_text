@@ -46,7 +46,7 @@ The only way an :code:`or` statement is false is if both expressions are false. 
 Exercise
 ++++++++
 
-.. admonition:: Practice these in the Veroskills interface:
+.. admonition:: Practice these in the Veroskills interface
 
    - Write a Python expression that evaluates to True.
    - Use parentheses and convert the Python expression you wrote in the last exercise and make sure it evaluates to false.
