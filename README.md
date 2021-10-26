@@ -1,6 +1,4 @@
----
-title: Introduction
----
+# Introduction
 
 Welcome to Introduction to Python, with
 [Veroskills](https://veroskills.com). This course will serve as an
@@ -51,7 +49,7 @@ This is the same program written in Python:
 print("Hello, World")
 ```
 
-# Exercise
+## Exercise
 
 ::: {.admonition}
 Practice these in the Veroskills interface
