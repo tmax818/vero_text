@@ -11,14 +11,15 @@ Python with VeroSkills
    :maxdepth: 1
    :caption: Contents:
 
-   intro
-   data_types
-   logic
-   variables
-   control_flow
-   fizz_buzz
-   while_loops
-   functions_part1
+
+   01intro
+   02data_types
+   03logic
+   04variables
+   05control_flow
+   06fizz_buzz
+   07while_loops
+   08functions_part1
 
 
 

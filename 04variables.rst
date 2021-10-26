@@ -8,9 +8,6 @@ A variable is a named location in the memory (i.e. RAM) of your computer. The fo
     message = "Spam"
 
 
-
-
-
 Exercise
 ++++++++
 
