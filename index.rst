@@ -20,6 +20,17 @@ Python with VeroSkills
    06fizz_buzz
    07while_loops
    08functions_part1
+   09functions_part2
+   10sequences
+   11lists
+   12tuples
+   13rangeandfor
+   14dictionaries
+   15classesone
+   16modules
+   17stdlib
+   18classestwo
+
 
 
 
