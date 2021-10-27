@@ -12,7 +12,7 @@ Python is the ideal first programming language. We write Python code in
 a manner that is analogous to written English.
 :::
 
-History of Python ++++++
+# History of Python
 
 Python was written in 1991 by [Guido van
 Rossem](https://gvanrossum.github.io/). He named the language after the

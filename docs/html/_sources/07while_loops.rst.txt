@@ -30,8 +30,6 @@ We can execute any code we want inside a while loop. We can check for traffic on
 
 The preceding code will keep running until we tell it to stop. 
 
-
-
 Exercise
 ++++++++
 

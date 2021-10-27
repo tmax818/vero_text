@@ -7,6 +7,11 @@ A variable is a named location in the memory (i.e. RAM) of your computer. The fo
 
     message = "Spam"
 
+It's important to remember a few rules when defining variables in python:
+
+- they are case-sensitive
+- variables must begin with a letter or underscore(_)
+- they cannot be a Python `keyword <https://docs.python.org/3/reference/lexical_analysis.html#keywords>`_.
 
 Exercise
 ++++++++
@@ -15,3 +20,9 @@ Exercise
 
    - Declare a variable called name and assign the string representation of your name to it.
    - Use the Python :code:`print` function to get it to print to the screen.
+
+
+Further Reading
+===============
+
+- `Python docs: keywords <https://docs.python.org/3/reference/lexical_analysis.html#keywords>`_ 
