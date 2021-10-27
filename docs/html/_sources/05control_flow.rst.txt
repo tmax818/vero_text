@@ -49,5 +49,4 @@ Exercise
 
 .. admonition:: Practice these in the Veroskills interface
 
-   - Write code that will print 
-   - Use the Python :code:`print` function to get it to print to the screen.
+   - Write a control flow statement that will print the word "even" if an number is even and "odd" if a number is odd.

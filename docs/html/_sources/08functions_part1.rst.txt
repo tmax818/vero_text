@@ -22,4 +22,5 @@ Exercise
 
 .. admonition:: Practice these in the Veroskills interface
 
-   - Write a function that...
+   - Write a function that adds two numbers and prints their sum.
+   - Write a function that subtracts two numbers and prints their difference.
