@@ -16,7 +16,7 @@ A sequence is an enumerated(i.e. numbered) collection of objects in which repeti
 There is a fourth type of sequence in Python called a string. We will use strings throughout the course, but will will reserve an in depth discussion until later in the course.
 
 Common Sequence Operations
-==========================
++++++++++++++++++++++++++++
 
 .. code-block:: python
     my_list = [1, 42, 31]

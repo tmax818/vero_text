@@ -41,7 +41,7 @@ This is the same program written in Python:
 
 
 Exercise
-========
+++++++++
 
 .. admonition:: Practice these in the Veroskills interface
 
