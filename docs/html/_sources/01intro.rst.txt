@@ -48,6 +48,6 @@ Exercise
    - Write a Python program that prints another string to the screen.
 
 Further Reading
-===============
++++++++++++++++
 
 - `Python website <https://python.org>`_ 

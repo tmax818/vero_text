@@ -23,7 +23,7 @@ There are a few ways to use the code in `my_module.py`. The first was is as foll
 
 
 Exercise
-========
+++++++++
 
 .. admonition:: Practice these in the Veroskills interface
 
@@ -32,6 +32,6 @@ Exercise
 
 
 Further Reading
-===============
++++++++++++++++
 
 - `Python website <https://python.org>`_ 
