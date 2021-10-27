@@ -50,3 +50,11 @@ Exercise
 
    - Write a Python expression that evaluates to True.
    - Use parentheses and convert the Python expression you wrote in the last exercise and make sure it evaluates to false.
+   - Use the Veroskills interface to access the Python help documentation.
+
+
+
+Further Reading
++++++++++++++++
+
+- `Python logical operators <https://www.w3schools.com/python/python_operators.asp>`_ 

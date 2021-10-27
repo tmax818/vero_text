@@ -21,11 +21,15 @@ The :code:`global_var` variable is defined in the global scope. Defining a funct
 
 
 
-
-
 Exercise
 ++++++++
 
 .. admonition:: Practice these in the Veroskills interface
 
    - Write a function that...
+
+
+Further Reading
++++++++++++++++
+
+- `Python docs: Built-in Functions <https://docs.python.org/3/library/functions.html>`_ 

@@ -50,3 +50,9 @@ Exercise
 .. admonition:: Practice these in the Veroskills interface
 
    - Write a control flow statement that will print the word "even" if an number is even and "odd" if a number is odd.
+
+
+Further Reading
++++++++++++++++
+
+- `Python docs: control flow <https://docs.python.org/3/tutorial/controlflow.html>`_ 

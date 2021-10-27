@@ -36,3 +36,9 @@ Exercise
 .. admonition:: Practice these in the Veroskills interface
 
    - Write a `while` statement that will print every letter of the following string: "The airspeed velocity of an unladen swallow." 
+
+
+Further Reading
++++++++++++++++
+
+- `Python website <https://python.org>`_ 

@@ -24,3 +24,9 @@ Exercise
 
    - Write a function that adds two numbers and prints their sum.
    - Write a function that subtracts two numbers and prints their difference.
+
+
+Further Reading
++++++++++++++++
+
+- `Python docs: Built-in Functions <https://docs.python.org/3/library/functions.html>`_ 

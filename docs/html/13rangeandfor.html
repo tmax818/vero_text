@@ -36,6 +36,33 @@
             
   <section id="ranges-and-for">
 <h1>Ranges and For<a class="headerlink" href="#ranges-and-for" title="Permalink to this headline">¶</a></h1>
+<p>We skipped the <cite>for</cite> loop when we discussed loops becuase the <cite>range</cite> and the <cite>for</cite> loop go hand in hand. You don’t have to use a range with a for loop, but it is common to do so.</p>
+<section id="ranges">
+<h2>Ranges<a class="headerlink" href="#ranges" title="Permalink to this headline">¶</a></h2>
+<p>A range is a function that generates a sequence of numbers. Run the following code inside the Veroskills interface:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">times</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">times</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, World&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>How many times does “Hello, World” print? This is one of the little things that you will have to remember ( or look up when you forget!!) about how Python works. You would intuitively think that “Hello, World” would print eleven times just by looking at the code. The range function generates numbers from the first integer argument up to and NOT INCLUDING the second integer argument.</p>
+</section>
+<section id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-practice-these-in-the-veroskills-interface admonition">
+<p class="admonition-title">Practice these in the Veroskills interface</p>
+<ul class="simple">
+<li><p>Practice using the range function and for loop to print out all the even numbers between 1 and 100.</p></li>
+</ul>
+</div>
+</section>
+<section id="further-reading">
+<h2>Further Reading<a class="headerlink" href="#further-reading" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#func-range">Python docs: range</a></p></li>
+</ul>
+</section>
 </section>
 
 
@@ -58,11 +85,9 @@
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="01intro.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="01intro.html#further-reading">Further Reading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02data_types.html">Data Types</a></li>
 <li class="toctree-l1"><a class="reference internal" href="03logic.html">Logic</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04variables.html">Variables</a></li>
-<li class="toctree-l1"><a class="reference internal" href="04variables.html#further-reading">Further Reading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="05control_flow.html">Control Flow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="06fizz_buzz.html">Fizz Buzz</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07while_loops.html">While Loops</a></li>
@@ -73,11 +98,8 @@
 <li class="toctree-l1"><a class="reference internal" href="12tuples.html">Tuples</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Ranges and For</a></li>
 <li class="toctree-l1"><a class="reference internal" href="14dictionaries.html">Dictionaries</a></li>
-<li class="toctree-l1"><a class="reference internal" href="14dictionaries.html#further-reading">Further Reading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="15classesone.html">Classes: Part 1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="16modules.html">Modules</a></li>
-<li class="toctree-l1"><a class="reference internal" href="16modules.html#exercise">Exercise</a></li>
-<li class="toctree-l1"><a class="reference internal" href="16modules.html#further-reading">Further Reading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="17stdlib.html">The Python Standard Library</a></li>
 <li class="toctree-l1"><a class="reference internal" href="18classestwo.html">Classes: Part 2</a></li>
 </ul>

@@ -1,5 +1,32 @@
 Tuples
 ======
 
-A tuple is an immutable sequence of objects. 
+A tuple is an immutable sequence of comma-separated objects. 
 
+
+.. code-block:: python
+
+    my_tuple = (True, True, True, False, "Tyler", 39)
+
+Python tuples can contain a mix of different data types. The tuple above contains several Booleans, a string and an integer. Run the following code in the Veroskills interface:
+
+.. code-block:: python
+
+    help(tuple)
+
+Scroll down and find the list methods that don't have a double underscore on the beginning and end of the method name. You will notice how few methods tuples have compared to lists. 
+
+
+
+Exercise
+++++++++
+
+.. admonition:: Practice these in the Veroskills interface
+
+   - Practice using as many of the list methods as you can.
+
+
+Further Reading
++++++++++++++++
+
+- `Python docs: Tuples and Sequences <https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences>`_ 
