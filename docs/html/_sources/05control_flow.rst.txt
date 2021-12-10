@@ -1,9 +1,9 @@
 Control Flow
 ============
 
-Control flow allows different code to execute depending on a condition. The keywords: :code:`if`, :code:`elif` and :code:`else` are used to control execution of code.
+Control flow allows different code to execute depending on a set of conditions. The keywords: :code:`if`, :code:`elif` and :code:`else` are used to control execution of code.
 
-Run the following code in the editor to see the output:
+Run the following code in the VeroSkills editor and observe the output:
 
 .. code-block:: python
 
@@ -50,6 +50,22 @@ Exercise
 .. admonition:: Practice these in the Veroskills interface
 
    - Write a control flow statement that will print the word "even" if an number is even and "odd" if a number is odd.
+   - Write a series of :code:`if` statements to test your understanding of logic.
+
+    .. code-block:: python
+
+        if True or False:
+            print("if ran")
+        elif True and False:
+            print("elif ran")
+        else:
+            print("else ran")
+
+    - change **or** and **and** in the code and try to predict the output.
+
+
+
+
 
 
 Further Reading

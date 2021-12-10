@@ -25,7 +25,7 @@ Data Types
      - :code:`None`
      - :code:`None`
 
-
+We make the distinction between different data types to accommodate how a computer stores data. Computers only speak the language of *binary*. Computer memory can be understood as a very large array of 0s and 1s(aka binary, because there are only two values). Python will automatically understand the data type of the item you are storing. However, having a basic understanding of how data is stored, will allow us to write better programs in the future. 
 
 
 Further Reading
