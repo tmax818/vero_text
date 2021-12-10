@@ -1,14 +1,14 @@
 Introduction
 ============
 
-Welcome to Introduction to Python, with `Veroskills <https://veroskills.com>`_. This course will serve as an introduction to coding via the `Python <https://python.org>`_ programming language.
+Welcome to *Introduction to Python*, with `Veroskills <https://veroskills.com>`_. This course will serve as an introduction to coding via the `Python <https://python.org>`_ programming language.
 
 .. admonition:: Python reads like English
 
    Python is the ideal first programming language. We write Python code in a manner that is analogous to written English.
 
 History of Python
-++++++ 
+++++++++++++++++++ 
 
 Python was written in 1991 by `Guido van Rossem <https://gvanrossum.github.io/>`_. He named the language after the British comedy troop `Monty Python <http://montypython.com/>`_.
 
@@ -51,3 +51,4 @@ Further Reading
 +++++++++++++++
 
 - `Python website <https://python.org>`_ 
+- `Python history <https://en.wikipedia.org/wiki/Python_(programming_language)>`_ 

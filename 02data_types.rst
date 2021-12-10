@@ -32,6 +32,7 @@ Further Reading
 +++++++++++++++
 
 - `Python website <https://python.org>`_ 
+- `Python Data Types <https://realpython.com/python-data-types/>`_ 
 
 
 

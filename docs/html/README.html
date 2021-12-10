@@ -49,13 +49,13 @@
 </aside>
 <a class="logo reference internal image-reference" href="_images/guido.png"><img alt="_images/guido.png" class="logo" src="_images/guido.png" style="width: 200px;" /></a>
 <p>It’s tradition that the first program you write simply prints, “Hello, World” to the screen. The following is how you would write that program in the C programming language.</p>
-<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
-<span class="p">{</span>
-    <span class="n">puts</span><span class="p">(</span><span class="s">&quot;Hello, World&quot;</span><span class="p">);</span>
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">puts</span><span class="p">(</span><span class="s">&quot;Hello, World&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
 <p>This is the same program written in Python:</p>
@@ -90,14 +90,12 @@
 
 
 <h3>Navigation</h3>
-<p class="caption"><span class="caption-text">Contents:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="01intro.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="01intro.html#further-reading">Further Reading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02data_types.html">Data Types</a></li>
 <li class="toctree-l1"><a class="reference internal" href="03logic.html">Logic</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04variables.html">Variables</a></li>
-<li class="toctree-l1"><a class="reference internal" href="04variables.html#further-reading">Further Reading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="05control_flow.html">Control Flow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="06fizz_buzz.html">Fizz Buzz</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07while_loops.html">While Loops</a></li>
@@ -108,11 +106,8 @@
 <li class="toctree-l1"><a class="reference internal" href="12tuples.html">Tuples</a></li>
 <li class="toctree-l1"><a class="reference internal" href="13rangeandfor.html">Ranges and For</a></li>
 <li class="toctree-l1"><a class="reference internal" href="14dictionaries.html">Dictionaries</a></li>
-<li class="toctree-l1"><a class="reference internal" href="14dictionaries.html#further-reading">Further Reading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="15classesone.html">Classes: Part 1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="16modules.html">Modules</a></li>
-<li class="toctree-l1"><a class="reference internal" href="16modules.html#exercise">Exercise</a></li>
-<li class="toctree-l1"><a class="reference internal" href="16modules.html#further-reading">Further Reading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="17stdlib.html">The Python Standard Library</a></li>
 <li class="toctree-l1"><a class="reference internal" href="18classestwo.html">Classes: Part 2</a></li>
 </ul>
@@ -128,7 +123,7 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -150,7 +145,7 @@
       &copy;2021, Tyler Maxwell.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
