@@ -40,21 +40,54 @@
 <p class="sidebar-title">Advanced Learners</p>
 <p>For those of you who have experience with another programming language, there is no block-scope in Python. Only functions, classes and modules create scope in Python.</p>
 </aside>
-<p>Functions create scope in python. Scope is a very important, but at times difficult to understand, concept in programming. Scope, is basically where a variable is visible.</p>
+<p>Functions create scope in Python. Scope is a very important, but at times difficult to understand, concept in programming. Scope, is basically where a variable is visible to other parts of our code.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">global_var</span> <span class="o">=</span> <span class="s2">&quot;global&quot;</span>
 
 <span class="k">def</span> <span class="nf">function_name</span><span class="p">():</span>
     <span class="n">local_var</span> <span class="o">=</span> <span class="s2">&quot;local&quot;</span>
 </pre></div>
 </div>
-<p>The <code class="code docutils literal notranslate"><span class="pre">global_var</span></code> variable is defined in the global scope. Defining a function in python</p>
+<p>The <code class="code docutils literal notranslate"><span class="pre">global_var</span></code> variable is defined in the global scope. Defining a function in Python creates another level of scope known as the enclosing scope. In the code above, if we try to print <code class="code docutils literal notranslate"><span class="pre">local_var</span></code> in the global scope:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">global_var</span> <span class="o">=</span> <span class="s2">&quot;global&quot;</span>
+
+<span class="k">def</span> <span class="nf">function_name</span><span class="p">():</span>
+    <span class="n">local_var</span> <span class="o">=</span> <span class="s2">&quot;local&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">local_var</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>We will get the following error:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
+File <span class="s2">&quot;temp.py&quot;</span>, line <span class="m">4</span>, <span class="k">in</span> &lt;module&gt;
+print<span class="o">(</span>local_var<span class="o">)</span>
+NameError: name <span class="s1">&#39;local_var&#39;</span> is not defined
+</pre></div>
+</div>
+<p>The variable <code class="code docutils literal notranslate"><span class="pre">local_var</span></code> is not in scope.</p>
 <section id="exercise">
 <h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
 <div class="admonition-practice-these-in-the-veroskills-interface admonition">
 <p class="admonition-title">Practice these in the Veroskills interface</p>
 <ul class="simple">
-<li><p>Write a function that…</p></li>
+<li><p>Try to predict the output of the following Python code:</p></li>
 </ul>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">global_var</span> <span class="o">=</span> <span class="s2">&quot;global&quot;</span>
+<span class="k">def</span> <span class="nf">function_name</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">global_var</span><span class="p">)</span>
+<span class="n">function_name</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">global_var</span> <span class="o">=</span> <span class="s2">&quot;global&quot;</span>
+<span class="k">def</span> <span class="nf">outer_function</span><span class="p">():</span>
+    <span class="n">local_var</span> <span class="o">=</span> <span class="s2">&quot;local&quot;</span>
+    <span class="k">def</span> <span class="nf">inner_function</span><span class="p">():</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">local_var</span><span class="p">)</span>
+    <span class="n">inner_function</span><span class="p">()</span>
+<span class="n">outer_function</span><span class="p">()</span>
+</pre></div>
+</div>
+</div></blockquote>
 </div>
 </section>
 <section id="further-reading">

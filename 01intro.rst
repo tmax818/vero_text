@@ -39,6 +39,7 @@ This is the same program written in Python:
 
     print("Hello, World")
 
+This is not meant to be a criticism of the C language. On the contrary, learning C is highly recommended. However, you should master a language like Python first.
 
 Exercise
 ++++++++
@@ -46,9 +47,11 @@ Exercise
 .. admonition:: Practice these in the Veroskills interface
 
    - Write a Python program that prints another string to the screen.
+   - Read the documentation for the Python :code:`print()` function. Try to print multiple strings and change the output.
 
 Further Reading
 +++++++++++++++
 
 - `Python website <https://python.org>`_ 
+- `Python print function <https://docs.python.org/3/library/functions.html#print>`_ 
 - `Python history <https://en.wikipedia.org/wiki/Python_(programming_language)>`_ 

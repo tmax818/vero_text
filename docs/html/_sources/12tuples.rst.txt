@@ -23,7 +23,7 @@ Exercise
 
 .. admonition:: Practice these in the Veroskills interface
 
-   - Practice using as many of the list methods as you can.
+   - Practice using as many of the tuple methods as you can.
 
 
 Further Reading

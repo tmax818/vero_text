@@ -1,7 +1,7 @@
 Variables
 =========
 
-A variable is a named location in the memory (i.e. RAM) of your computer. The following code will create a space in memory to store the **string**,"spam."
+A variable is a named location in the memory (i.e. RAM) of your computer. The following code will create a space in memory to store the **string**,"Spam."
 
 .. code-block:: python
 

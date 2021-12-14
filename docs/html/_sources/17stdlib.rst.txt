@@ -15,3 +15,9 @@ The following code will print a calendar for the year 2021:
     import calendar
 
     print(calendar.calendar(2021))
+
+
+Further Reading
++++++++++++++++
+
+- `Python standard library <https://docs.python.org/3/library/>`_ 

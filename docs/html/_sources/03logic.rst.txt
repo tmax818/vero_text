@@ -1,6 +1,8 @@
 Logic
 =====
 
+There are three main logical operators in Python: :code:`not`, :code:`and`, and :code:`or`. These logical operators play a pivotal role in writing code that is responsive and dynamic.
+
 Not
 +++
 
@@ -34,8 +36,8 @@ Or
 
 The only way an :code:`or` statement is false is if both expressions are false. Otherwise, it is true.
 
-.. csv-table:: :code:`and`
-    :header: :code:`p`, :code:`q`, :code:`p and q`
+.. csv-table:: :code:`or`
+    :header: :code:`p`, :code:`q`, :code:`p or q`
     :widths: 10, 10, 10
 
     :code:`True`, :code:`True`, :code:`True`
@@ -51,7 +53,23 @@ Exercise
    - Write a Python expression that evaluates to True.
    - Use parentheses and convert the Python expression you wrote in the last exercise and make sure it evaluates to false.
    - Use the Veroskills interface to access the Python help documentation.
+   - Try to predict the outcome of the following Python expressions:
 
+    .. code-block:: python
+        
+        print(True or False)
+
+    .. code-block:: python
+
+        print(True and False)
+
+    .. code-block:: python
+
+        print(True and (4 == 5))
+
+    .. code-block:: python
+
+        print(not False and True)
 
 
 Further Reading

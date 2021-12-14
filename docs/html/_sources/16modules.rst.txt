@@ -34,4 +34,4 @@ Exercise
 Further Reading
 +++++++++++++++
 
-- `Python website <https://python.org>`_ 
+- `Python modules <https://docs.python.org/3/tutorial/modules.html>`_ 
