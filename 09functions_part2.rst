@@ -55,6 +55,7 @@ Exercise
             print(global_var)
         function_name()
 
+
     .. code-block:: python
 
         global_var = "global"
@@ -71,4 +72,4 @@ Exercise
 Further Reading
 +++++++++++++++
 
-- `Python docs: Built-in Functions <https://docs.python.org/3/library/functions.html>`_ 
+- `W3Schools: Python scope <https://www.w3schools.com/python/python_scope.asp>`_ 
