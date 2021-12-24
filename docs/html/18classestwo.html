@@ -35,6 +35,37 @@
             
   <section id="classes-part-2">
 <h1>Classes: Part 2<a class="headerlink" href="#classes-part-2" title="Permalink to this headline">¶</a></h1>
+<p>Python classes are the heart and soul of the Python programming language. It is a very complex topic and we have only given you a taste of what’s to come. Object oriented programming is very difficult for the new programmer to understand. If it’s not clear at this point, you are normal! OOP in general, and pointers in C are two topics that <strong>everyone</strong> struggles with! Give yourself permission to not understand this at first.</p>
+<p>However, it is not impossible to grasp. Practice as much as you can building classes and creating objects from them. One day, it will <em>click</em>, I promise.</p>
+<p>Try the following code:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyClass</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+<span class="n">c</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>What happens? What is printed to the screen? This exercise will help you understand what <code class="docutils literal notranslate"><span class="pre">self</span></code> is in an object. You should see something like this:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">__main__</span><span class="o">.</span><span class="n">MyClass</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x7f98a3ad6340</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>This is how Python represents the object that is created from the <code class="docutils literal notranslate"><span class="pre">MyClass</span></code> class. The number, 0x7f98a3ad6340, is a hexadecimal number that represents the memory location in my computer where the object is stored. The number you get will be different. This shows the relationship between a class and the object created from the class. When you write your class, you can access the object that will be created from the class with the <code class="docutils literal notranslate"><span class="pre">self</span></code> keyword.</p>
+<section id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-practice-these-in-the-veroskills-interface admonition">
+<p class="admonition-title">Practice these in the Veroskills interface</p>
+<ul class="simple">
+<li><p>Read the documentation for Python classes. Don’t just read, code along! Write out the examples and run the code.</p></li>
+<li><p>Write simple classes and try to call the dunder methods that are builtin to them.</p></li>
+</ul>
+</div>
+</section>
+<section id="further-reading">
+<h2>Further Reading<a class="headerlink" href="#further-reading" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.python.org/3/tutorial/classes.html">Python classes</a></p></li>
+</ul>
+</section>
 </section>
 
 
