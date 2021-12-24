@@ -21,6 +21,28 @@ Exercise
 .. admonition:: Practice these in the Veroskills interface
 
    - Practice using as many of the list methods as you can.
+   - Try to predict the outcome of the following code. Use the Veroskills interface to test your prediction.
+
+
+    .. code-block:: python
+        
+        my_list = [1,2,3,4]
+        my_list.append("5")
+        print(my_list)
+
+    .. code-block:: python
+
+        my_list = [1,2,3,4]
+        item = my_list.pop(4)
+        print(item)
+
+    .. code-block:: python
+
+        my_list = [1,2,3,4]
+        item = my_list.pop(1)
+        print(item)
+
+
 
 
 Further Reading

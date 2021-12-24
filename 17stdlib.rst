@@ -1,7 +1,7 @@
 The Python Standard Library
-===========================
+=============================
 
-The `Python Standard Library <https://docs.python.org/3/library/>`_ is what makes Python a "batteries included" language. The Standard Library has code for handling just about anything. The following code will open the webpage for the Standard Library using a module, :code::`webbrowser`  from the Standard Library!
+The `Python Standard Library <https://docs.python.org/3/library/>`_ is what makes Python a **batteries included** language. The Standard Library has code for handling just about anything you can imagine. The following code will open the webpage for the Standard Library using a module, :code:`webbrowser` from the Standard Library!
 
 .. code-block:: python
 
@@ -15,6 +15,17 @@ The following code will print a calendar for the year 2021:
     import calendar
 
     print(calendar.calendar(2021))
+
+
+
+Exercise
+++++++++
+
+.. admonition:: Practice these in the Veroskills interface
+
+   - Read the documentation for the Python Standard Library. Practice using some of its modules
+   - Write a simple dice game using the ``Random`` module from the Standard Library.
+
 
 
 Further Reading

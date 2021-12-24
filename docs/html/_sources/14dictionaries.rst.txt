@@ -9,6 +9,34 @@ A Python dictionary is a set of key/value pairs. Python dictionaries have the re
 
 Python dictionaries have to have immutable keys. The reason for this is a more advanced topic, so just use strings for your dictionary keys when you are beginning.
 
+Exercise
+++++++++
+
+.. admonition:: Practice these in the Veroskills interface
+
+   - Practice using the dictionary methods.
+   - Try to predict the outcome of the following code. Use the Veroskills interface to test your prediction.
+
+
+    .. code-block:: python
+        
+        person = {"name": "Daniel", "age": 25 }
+        person["age"] += 1
+        print(person)
+
+    .. code-block:: python
+
+        person = {"name": "Daniel", "age": 25 }
+        person["hobbies"] = ["reading", "coding"]
+        print(person)
+
+    .. code-block:: python
+
+        person = {"name": "Daniel", "age": 25 }
+        person["address"] = {"house_number": 125, "street": "main"}
+        print(person)
+
+
 
 Further Reading
 +++++++++++++++

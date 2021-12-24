@@ -39,18 +39,39 @@
 <p>The following is the most basic Python class you can write:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyClass</span><span class="p">:</span>
     <span class="k">pass</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>The <code class="code docutils literal notranslate"><span class="pre">dir()</span></code> function will show all the methods available on an object. Running <code class="code docutils literal notranslate"><span class="pre">print(dir(MyClass))</span></code> will give the following:</p>
+<p>The <code class="code docutils literal notranslate"><span class="pre">dir()</span></code> function will show all the methods available on an object. Running <code class="code docutils literal notranslate"><span class="pre">print(dir(c))</span></code> will give the following:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">[</span><span class="s1">&#39;__class__&#39;</span>, <span class="s1">&#39;__delattr__&#39;</span>, <span class="s1">&#39;__dict__&#39;</span>, <span class="s1">&#39;__dir__&#39;</span>, <span class="s1">&#39;__doc__&#39;</span>, <span class="s1">&#39;__eq__&#39;</span>, <span class="s1">&#39;__format__&#39;</span>, <span class="s1">&#39;__ge__&#39;</span>, <span class="s1">&#39;__getattribute__&#39;</span>, <span class="s1">&#39;__gt__&#39;</span>, <span class="s1">&#39;__hash__&#39;</span>, <span class="s1">&#39;__init__&#39;</span>, <span class="s1">&#39;__init_subclass__&#39;</span>, <span class="s1">&#39;__le__&#39;</span>, <span class="s1">&#39;__lt__&#39;</span>, <span class="s1">&#39;__module__&#39;</span>, <span class="s1">&#39;__ne__&#39;</span>, <span class="s1">&#39;__new__&#39;</span>, <span class="s1">&#39;__reduce__&#39;</span>, <span class="s1">&#39;__reduce_ex__&#39;</span>, <span class="s1">&#39;__repr__&#39;</span>, <span class="s1">&#39;__setattr__&#39;</span>, <span class="s1">&#39;__sizeof__&#39;</span>, <span class="s1">&#39;__str__&#39;</span>, <span class="s1">&#39;__subclasshook__&#39;</span>, <span class="s1">&#39;__weakref__&#39;</span><span class="o">]</span>
 </pre></div>
 </div>
+<p>We did not define any of these methods. These are methods that we have access to simply because our object created from a Python class. Classes are a powerful way to bundle attributes and methods. The classes we write in our programs can be thought of as analogous to real world things.</p>
+<p>If we are creating a space adventure game, our program will have things like spaceships, planets, stars and the like. The spaceship in our game will have attributes and methods. The following might be a way to code our spaceship using Python:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Spaceship</span><span class="p">:</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">position</span><span class="p">,</span> <span class="n">damage</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">model</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">position</span> <span class="o">=</span> <span class="n">position</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">damage</span> <span class="o">=</span> <span class="n">damage</span>
+
+    <span class="k">def</span> <span class="nf">fire_cannon</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The cannon has fired.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The properties or attributes for our spaceship are: model, position, and damage. In this simple example, our spaceship only has one method, <code class="docutils literal notranslate"><span class="pre">fire_cannon</span></code>. This is a convenient way to keep track of all the things our spaceship <em>has</em> and <em>can do</em>. The things our spaceship <em>has</em> are its attributes. The things our <em>can do</em> are its methods.</p>
+<p>When our game starts, we simply create a spaceship object:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">space_ship</span> <span class="o">=</span> <span class="n">Spaceship</span><span class="p">(</span><span class="s2">&quot;XP-39&quot;</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>This gives us a spaceship object, <code class="docutils literal notranslate"><span class="pre">space_ship</span></code> that can then interact with other objects in our game. When the <code class="docutils literal notranslate"><span class="pre">space_ship</span></code> is destroyed in the game, we simply make another one from our <code class="docutils literal notranslate"><span class="pre">Spaceship</span></code> class.</p>
 <section id="exercise">
 <h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
 <div class="admonition-practice-these-in-the-veroskills-interface admonition">
 <p class="admonition-title">Practice these in the Veroskills interface</p>
 <ul class="simple">
 <li><p>Practice writing Python classes.</p></li>
+<li><p>Write your own game using Python classes. Decide how your objects will interact. Start by having the game play take place in the console.</p></li>
 </ul>
 </div>
 </section>

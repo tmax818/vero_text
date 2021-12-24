@@ -32,6 +32,14 @@ Common Sequence Operations
     min(my_list)
     max(my_list)
 
+Exercise
+++++++++
+
+.. admonition:: Practice these in the Veroskills interface
+
+   - Write a two lists in the Veroskills interface and test their equality using `==`. 
+   - Practice with as many of the Python builtin sequence functions and methods as you can.
+
 
 
 

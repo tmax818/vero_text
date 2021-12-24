@@ -24,6 +24,27 @@ Exercise
 .. admonition:: Practice these in the Veroskills interface
 
    - Practice using as many of the tuple methods as you can.
+   - Try to predict the outcome of the following code. Use the Veroskills interface to test your prediction.
+
+
+    .. code-block:: python
+        
+        my_tuple = (1,2,3,4)
+        my_list.append("5")
+        print(my_tuple)
+
+    .. code-block:: python
+
+        my_tuple = (1,2,3,4)
+        item = my_tuple.pop(4)
+        print(item)
+
+    .. code-block:: python
+
+        my_tuple = [1,2,3,4]
+        item = my_tuple.index(1)
+        print(item)
+
 
 
 Further Reading

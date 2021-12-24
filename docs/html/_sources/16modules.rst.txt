@@ -20,6 +20,17 @@ There are a few ways to use the code in `my_module.py`. The first was is as foll
     print(my_module.my_variable)
     my_module.my_function()
 
+The syntax ``my_module.my_variable`` involves using what is known as a **namespace**. The ``my_module`` before the variable and function name is the namespace. This is required when the simple ``import my_module`` syntax is used. The other way is a bit more popular, but both methods have their use cases.
+
+.. code-block:: python
+    
+    ## main.py
+    from my_module import my_function, my_variable
+
+    print(my_variable)
+    my_function()
+
+This is a bit cleaner and easier to understand. If you find namespaces confusing, use the second syntax.
 
 
 Exercise
@@ -27,7 +38,7 @@ Exercise
 
 .. admonition:: Practice these in the Veroskills interface
 
-   - Write a Python program that prints another string to the screen.
+   - Write a Python program that imports modules from the Standard Library.
 
 
 
