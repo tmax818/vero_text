@@ -32,7 +32,7 @@ Exercise
 
 .. admonition:: Practice these in the Veroskills interface
 
- -  Use the Python `type()` function to determine the data types of various inputs.
+ -  Use the Python ``type()`` function to determine the data types of various inputs.
  
 
 

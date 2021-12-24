@@ -41,4 +41,4 @@ Exercise
 Further Reading
 +++++++++++++++
 
-- `Python website <https://python.org>`_ +++
+- `Python website <https://python.org>`_
