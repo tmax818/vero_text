@@ -13,6 +13,10 @@ It's important to remember a few rules when defining variables in python:
 - variables must begin with a letter or underscore(_)
 - they cannot be a Python `keyword <https://docs.python.org/3/reference/lexical_analysis.html#keywords>`_.
 
+
+Variables, or the ability for a computer to "remember" things, allows us to take a huge leap in the power of the programs we can write. They are part of what makes Python a programming language and not just a fancy calcluator.
+
+
 Exercise
 ++++++++
 

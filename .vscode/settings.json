@@ -1,5 +1,6 @@
 {
   "liveServer.settings.port": 5500,
   "restructuredtext.languageServer.disabled": true,
-  "restructuredtext.confPath": "${workspaceFolder}"
+  "restructuredtext.confPath": "${workspaceFolder}",
+  "cSpell.words": ["calcluator"]
 }

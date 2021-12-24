@@ -4,7 +4,7 @@ Logic
 There are three main logical operators in Python: :code:`not`, :code:`and`, and :code:`or`. These logical operators play a pivotal role in writing code that is responsive and dynamic.
 
 Not
-+++
+****
 
 The not operator is like flipping a switch. Whatever an expression evaluates to, applying the :code:`not` operator converts it to its opposite.
 
@@ -18,7 +18,7 @@ The not operator is like flipping a switch. Whatever an expression evaluates to,
 
 
 And 
-+++
+*****
 
 The only way an :code:`and` statement is true is if both expressions are true. Otherwise, it is false.
 
@@ -32,7 +32,7 @@ The only way an :code:`and` statement is true is if both expressions are true. O
     :code:`False`, :code:`False`, :code:`False`
 
 Or 
-+++
+******
 
 The only way an :code:`or` statement is false is if both expressions are false. Otherwise, it is true.
 
