@@ -2,12 +2,12 @@
 - [ ] It is a Python keyword.
 - [ ] It is a word for the magic methods in a Python class.
 - [ ] It is a portmanteau of "double" and "underscore".
-- [ ] both b and c are correct.
+- [x] both b and c are correct.
 
 ### Which of the following is *not* true of the Python classes?
 - [ ] Python classes are like blueprints for objects.
 - [ ] Everything in Python is an object, so everything comes from a class.
-- [ ] Python only has builtin classes, you cannot make your own classes.
+- [x] Python only has builtin classes, you cannot make your own classes.
 - [ ] All of the above are true.
 
 
@@ -25,7 +25,7 @@
 - [ ] "Fido"
 - [ ] fido.name
 - [ ] This will cause a warning, but the code will compile.
-- [ ] This will cause an error because a breed was not supplied.
+- [x] This will cause an error because a breed was not supplied.
 
 
 ### What will happen after running the following Python code?
@@ -39,7 +39,7 @@
     print(fido.name)
 ```
 
-- [ ] "Fido"
+- [x] "Fido"
 - [ ] fido.name
 - [ ] This will cause a warning, but the code will compile.
 - [ ] This will cause an error because a breed was not supplied.
@@ -53,7 +53,7 @@
 ```
 - [ ] This code is not valid Python code.
 - [ ] MyClass is a module in the Python Standard Library.
-- [ ] MyClass has several builtin dunder methods.
+- [x] MyClass has several builtin dunder methods.
 - [ ] The `pass` keyword cannot be used for classes.
 
 
