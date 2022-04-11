@@ -3,23 +3,23 @@
 
 #### `not True and (False or False)`
 - [ ] `True`
-- [ ] `False`
+- [x] `False`
 
 
 #### `"" and (False or True)`
 - [ ] `True`
-- [ ] `False`
+- [x] `False`
 
 
 #### `not ((5 != 5) or (False and True))`
 - [ ] `True`
-- [ ] `False`
+- [x] `False`
 
 
 #### `not ((5 != 5) or (False and True))`
-- [ ] `True`
+- [x] `True`
 - [ ] `False`
 
 #### `"string" or "other string"`
-- [ ] `True`
+- [x] `True`
 - [ ] `False`
