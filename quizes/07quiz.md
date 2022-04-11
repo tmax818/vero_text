@@ -1,11 +1,11 @@
 ### Which of the following is the correct way to write a Python `while` statement?
 - [ ] `while true:`
-- [ ] `while True:`
+- [x] `while True:`
 - [ ] `While false:`
 - [ ] `DoWhile True:`
 
 ### Which of the following is *not* true of `while` statements in Python?
-- [ ] Python `while` statements can never cause an infinite loop.
+- [x] Python `while` statements can never cause an infinite loop.
 - [ ] Python `while` statements can have `True` as their condition.
 - [ ] Python `while` statements must be followed by a truthy or falsey expression.
 - [ ] All of the above statements are true.
@@ -18,7 +18,7 @@ while True:
       input("What is your name? ")
 ```
 
-- [ ] "What is your name? "
+- [x] "What is your name? "
 - [ ] What is your name? 
 - [ ] It will cause an infinite loop
 - [ ] Nothing will print
@@ -33,7 +33,7 @@ while n < 5:
 ```
 
 - [ ] 0 1 2 3 4 5 on separate lines.
-- [ ] 0 1 2 3 4 on separate lines. 
+- [x] 0 1 2 3 4 on separate lines. 
 - [ ] 0 1 2 3 4 5 on the same line.
 - [ ] 0 1 2 3 4 on the same line. 
 
@@ -54,7 +54,7 @@ while n > 0:
 
 - [ ] 5 4 3 2 1 on the same line
 - [ ] 5
-- [ ] It will be an infinite loop
+- [x] It will be an infinite loop
 - [ ] Nothing will print
 
 
