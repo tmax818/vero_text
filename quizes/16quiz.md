@@ -1,5 +1,5 @@
 ### Which of the following is the correct definition of a Python module?
-- [ ] A Python file.
+- [x] A Python file.
 - [ ] A Python package.
 - [ ] A Python directory.
 - [ ] A Python builtin method.
@@ -9,7 +9,7 @@
 ### Which of the following is *not* an true of modules in Python?
 - [ ] Modules are a way of organizing Python code.
 - [ ] Modules can be imported into other files
-- [ ] Modules are special types of python files.
+- [x] Modules are special types of python files.
 - [ ] All of the above are true.
 
 
@@ -19,7 +19,7 @@
 import my_module
 ```
 
-- [ ] Nothing unless a file called my_module.py is defined in the same directory.
+- [x] Nothing unless a file called my_module.py is defined in the same directory.
 - [ ] It allows the file to use all functions and variables defined in the module.
 - [ ] a and b are both true.
 - [ ] None of the above.
@@ -35,7 +35,7 @@ and
 from my_module import *
 ```
 
-- [ ] The first one requires a namespace while the second does not.
+- [x] The first one requires a namespace while the second does not.
 - [ ] The second one is not very Pythonic.
 - [ ] They are equivalent ways of writing the same thing.
 - [ ] The second method is easier to work with.
@@ -47,7 +47,7 @@ from my_module import *
 from my_module import name
 print(name)
 ```
-- [ ] "Daniel"
+- [x] "Daniel"
 - [ ] NameError
 - [ ] name
 - [ ] Nothing will print without a namespace.
