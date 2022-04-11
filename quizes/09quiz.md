@@ -1,11 +1,11 @@
 ### Which of the following is the correct definition of a Python function?
-- [ ] A series of statements which returns some value to a caller.
+- [x] A series of statements which returns some value to a caller.
 - [ ] A Python data type that must return a value or `None`.
 - [ ] Python does not have functions, it has methods.
 - [ ] All of the above.
 
 ### Which of the following is the correct definition of scope in Python?
-- [ ] It is were a variable is visible.
+- [x] It is were a variable is visible.
 - [ ] Python does not have block scope.
 - [ ] Python uses LEGB to look for variables
 - [ ] None of the above.
@@ -22,7 +22,7 @@ print(global_var)
 ```
 
 - [ ] global
-- [ ] local
+- [x] local
 - [ ] global_var is out of scope.
 
 ### What will print to the console after running the following Python code?
@@ -36,7 +36,7 @@ func()
 
 ```
 
-- [ ] global
+- [x] global
 - [ ] local
 - [ ] global and local
 - [ ] Nothing will print.
@@ -55,7 +55,7 @@ func()
 ```
 - [ ] global
 - [ ] local
-- [ ] global and local
+- [x] global and local
 - [ ] Nothing will print.
 
 
