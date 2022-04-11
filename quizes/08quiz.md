@@ -1,11 +1,11 @@
 ### Which of the following is the correct way to write aPython `while` statement?
 - [ ] `while true:`
-- [ ] `while True:`
+- [x] `while True:`
 - [ ] `While false:`
 - [ ] `DoWhile True:`
 
 ### Which of the following is *not* true of Python functions?
-- [ ] Python functions must have a return value.
+- [x] Python functions must have a return value.
 - [ ] Python functions return `None` by default.
 - [ ] Python functions must begin with the `def` keyword.
 - [ ] Python functions must always have parentheses.
@@ -18,7 +18,7 @@ def do_nothing():
       print("I don't do anything")
 ```
 
-- [ ] I don't do anything
+- [x] I don't do anything
 - [ ] None
 - [ ] Nothing will print
 
@@ -30,7 +30,7 @@ def add(a, b):
 ```
 
 - [ ] None
-- [ ] Nothing
+- [x] Nothing
 - [ ] the sum of a and b
 - [ ] <class Function>
 
@@ -47,7 +47,7 @@ help(do_nothing)
 ```
 
 - [ ] pass
-- [ ] this function does nothing
+- [x] this function does nothing
 - [ ] None
 - [ ] Nothing will print
 
