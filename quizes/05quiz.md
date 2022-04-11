@@ -1,12 +1,12 @@
 ### Python `if` statements must have an `else` statement to be valid?
 - [ ] true
-- [ ] false
+- [x] false
 - [ ] It depends...
 - [ ] only if there is an `elif` statement.
 
 ### Which of the following is *not* true of `if` statements in Python?
 - [ ] Python `if` statements are used to control program flow.
-- [ ] Python `if` statements cannot be nested.
+- [x] Python `if` statements cannot be nested.
 - [ ] Python `if` statements must be followed by a truthy or falsey expression.
 - [ ] All of the above statements are true.
 
@@ -22,7 +22,7 @@ if condition:
 - [ ] "Python is the best!"
 - [ ] Python is the best!
 - [ ] False
-- [ ] Nothing will print
+- [x] Nothing will print
 
 ### What will print to the console after running the following Python code?
 
@@ -37,10 +37,11 @@ else:
 ```
 
 - [ ] Python is the best!
-- [ ] Python is my favorite language!
+- [x] Python is my favorite language!
 - [ ] This is invalid syntax
 - [ ] Nothing will print
-- [ ] 
+
+
 ### What will print to the console after running the following Python code?
 
 ``` python
@@ -58,7 +59,7 @@ else:
 
 - [ ] Python is the best!
 - [ ] Python is my favorite language!
-- [ ] The other condition is True
+- [x] The other condition is True
 - [ ] Nothing will print
 
 
